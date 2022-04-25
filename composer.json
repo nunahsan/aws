@@ -1,0 +1,23 @@
+{
+    "name": "nunahsan/aws",
+    "description": "Simplify library for AWS STS",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^9.0",
+        "aws/aws-sdk-php": "^3.0"
+    },
+    "require-dev": {},
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nunahsan\\Aws\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nunahsan",
+            "email": "hasannawi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
