@@ -62,7 +62,7 @@ class Sts extends \Illuminate\Support\ServiceProvider {
         $expiry = '+' . env('AWS_S3_CLIENT_EXPIRY') . ' seconds';
 
         //generate post object
-        $postObject = new PostObjectV4(self::getS3ClientFromAssumeRole, $bucket, $acl, $options, $expiry);
+        $postObject = new PostObjectV4(self::getS3ClientFromAssumeRole(), $bucket, $acl, $options, $expiry);
 
         $formAttributes = $postObject->getFormAttributes();
         $formInputs = $postObject->getFormInputs();
