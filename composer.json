@@ -1,6 +1,6 @@
 {
     "name": "nunahsan/aws",
-    "description": "Simplify library for AWS STS",
+    "description": "Simplify library for AWS",
     "type": "library",
     "require": {
         "illuminate/support": "^9.0",
